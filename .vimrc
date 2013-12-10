@@ -11,3 +11,5 @@ set autoindent
 set smarttab
 set expandtab
 set number
+
+let g:EasyMotion_leader_key = 'W'
