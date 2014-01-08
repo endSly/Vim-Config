@@ -7,12 +7,41 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/log
+
+# Last Substitute String:
+$    
+
 # Command Line History (newest to oldest):
-:q
-:NERDTreeFind
 :w
+:vsplit
+:q
+:split
+:Glog
+:Gblame
+:NERDTree
+:q!
+:call ExtractSnips("~/.vim/snippets/grails", "groovy")
+:call ExtractSnips("~/.vim/snippets/html", "gsp")
+:call ExtractSnips()
+:ExtractSnips()
+:call ExtractSnips
+:w ~/test.html
+:cd Projects/
+:MRU
+:G
+:Gstatus
+:W
+:e! LICENSE
 
 # Search String History (newest to oldest):
+?/log
+? def update\>
+? {\{3}[1-9]
+? \Vh3\%#
+? \Vh1\%#
+? \Vdiv\%#
 
 # Expression History (newest to oldest):
 
@@ -21,35 +50,180 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+""1	CHAR	0
+	build ":tomcat:$grailsVersion"
 	
-"2	LINE	0
+"2	CHAR	0
+	runtime ":hibernate:$grailsVersion"
+"3	CHAR	0
+	error
+"4	CHAR	0
+				return true;
+			else
+				return false;
+	
+"5	LINE	0
+	
+"6	LINE	0
+	call ExtractSnips("~/.vim/snippets/grails", "groovy")
+"7	LINE	0
+	call ExtractSnips("~/.vim/snippets/html", "gsp")
+"8	LINE	0
+	
+"9	LINE	0
+	call ExtractSnips("~/.vim/snippets/grails", "groovy")
+"-	CHAR	0
+	build ":tomcat:$grailsVersion"
 	
 
 # File marks:
-'0  27  9  ~/.vim/NERD_tree_1
-'1  1  0  ~/Downloads/nerdtree-master/syntax/nerdtree.vim
-'2  1  0  ~/.gitignore
+'0  1  20  ~/.vim/after/ftplugin/java.vim
+'1  1  20  ~/.vim/after/ftplugin/groovy.vim
+'2  7  7  ~/.vimrc
+'3  43  49  ~/Projects/erika/blaze/grails-app/conf/BuildConfig.groovy
+'4  15  0  ~/.vimrc
+'5  1  0  ~/test.html
+'6  16  36  ~/.vimrc
+'7  2  0  ~/test.html
+'8  16  52  ~/.vimrc
+'9  167  33  ~/.vim/snippets/html.snippets
 
 # Jumplist (newest first):
--'  27  9  ~/.vim/NERD_tree_1
--'  127  2  ~/.vim/NERD_tree_1
--'  1  11  ~/.vim/NERD_tree_1
--'  1  0  ~/Projects/brand-monitor/.git/COMMIT_EDITMSG
--'  1  0  ~/Downloads/nerdtree-master/syntax/nerdtree.vim
--'  1  0  ~/.gitignore
--'  1  0  ~/.gitignore
--'  1  0  ~/Downloads/nerdtree-master/syntax/nerdtree.vim
--'  1  0  ~/.gitignore
--'  1  0  ~/.gitignore
+-'  1  20  ~/.vim/after/ftplugin/java.vim
+-'  1  20  ~/.vim/after/ftplugin/groovy.vim
+-'  7  7  ~/.vimrc
+-'  8  7  ~/.vimrc
+-'  9  15  ~/.vimrc
+-'  15  32  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  43  49  ~/Projects/erika/blaze/grails-app/conf/BuildConfig.groovy
+-'  57  7  ~/Projects/erika/blaze/grails-app/conf/BuildConfig.groovy
+-'  47  7  ~/Projects/erika/blaze/grails-app/conf/BuildConfig.groovy
+-'  38  60  ~/Projects/erika/blaze/grails-app/conf/BuildConfig.groovy
+-'  533  6  ~/Projects/erika/blaze/grails-app/services/blaze/InformacionService.groovy
+-'  62  22  ~/Projects/erika/blaze/grails-app/controllers/blaze/SiteController.groovy
+-'  1  0  ~/Projects/erika/blaze/grails-app/controllers/blaze/SiteController.groovy
+-'  37  0  ~/Projects/erika/blaze/grails-app/controllers/blaze/SiteController.groovy
+-'  1  0  ~/Projects/erika/blaze/grails-app/conf/BuildConfig.groovy
+-'  87  8  ~/Projects/erika/blaze/grails-app/views/site/index.gsp
+-'  1  0  ~/Projects/erika/blaze/grails-app/controllers/blaze/SitemapController.groovy
+-'  14  0  ~/Projects/erika/blaze/grails-app/controllers/blaze/SitemapController.groovy
+-'  75  0  ~/Projects/erika/blaze/grails-app/controllers/blaze/SiteController.groovy
+-'  248  4  ~/Projects/erika/blaze/grails-app/controllers/blaze/SiteController.groovy
+-'  1  0  ~/Projects/erika/blaze/grails-app/conf/UrlMappings.groovy
+-'  22  3  ~/Projects/erika/blaze/grails-app/controllers/blaze/BaseController.groovy
+-'  1  0  ~/Projects/erika/blaze/grails-app/controllers/blaze/BaseController.groovy
+-'  1  0  ~/Projects/erika/blaze/grails-app/controllers/blaze/BotController.groovy
+-'  7  0  ~/Projects/erika/blaze/grails-app/controllers/blaze/BotController.groovy
+-'  1  0  ~/Projects/erika/blaze/grails-app/views/layouts/blaze_base.gsp
+-'  98  0  ~/Projects/erika/blaze/grails-app/views/corporate/index.gsp
+-'  1  0  ~/Projects/erika/blaze/grails-app/views/corporate/index.gsp
+-'  6  18  ~/Projects/erika/blaze/src/groovy/blaze/ListToMapCategory.groovy
+-'  1  0  ~/Projects/erika/blaze/src/groovy/blaze/GermanTransliteration.groovy
+-'  1  0  ~/Projects/erika/blaze/src/groovy/blaze/Filtrador.groovy
+-'  1  0  ~/Projects/erika/blaze/src/groovy/blaze/DummyLocaleChangeInterceptor.groovy
+-'  1  0  ~/test.html
+-'  16  36  ~/.vimrc
+-'  2  0  ~/test.html
+-'  167  33  ~/.vim/snippets/html.snippets
+-'  176  0  ~/.vim/snippets/html.snippets
+-'  174  0  ~/.vim/snippets/html.snippets
+-'  172  0  ~/.vim/snippets/html.snippets
+-'  170  0  ~/.vim/snippets/html.snippets
+-'  168  0  ~/.vim/snippets/html.snippets
+-'  166  0  ~/.vim/snippets/html.snippets
+-'  1  0  ~/.vim/snippets/html.snippets
+-'  374  25  ~/Projects/Shell/Shell/terminal-html/term.js
+-'  62  3  ~/Projects/Shell/Shell/terminal-html/terminal.html
+-'  65  4  ~/Projects/Shell/Shell/terminal-html/term.js
+-'  1  0  ~/Projects/Shell/Shell/terminal-html/term.js
+-'  7  33  ~/Projects/Shell/Shell/connection-form.json
+-'  6  3  ~/Projects/Shell/Shell/connection-form.json
+-'  1  0  ~/Projects/Shell/Shell/connection-form.json
+-'  5  21  ~/Projects/Shell/Podfile
+-'  1  0  ~/Projects/Shell/Podfile
+-'  1  9  ~/Desktop/libssh2/.gitignore
+-'  17  46  ~/Projects/Shell/Shell/connection-form.json
+-'  18  35  ~/Projects/Shell/Shell/connection-form.json
+-'  16  33  ~/Projects/Shell/Shell/connection-form.json
+-'  12  35  ~/Projects/Shell/Shell/connection-form.json
+-'  4  2  ~/Projects/Shell/Shell/connection-form.json
+-'  22  80  ~/Projects/Shell/Shell/connection-form.json
+-'  11  138  ~/Projects/Shell/Shell/connection-form.json
+-'  15  3  ~/Projects/Shell/Shell/connection-form.json
+-'  10  28  ~/Projects/Shell/Podfile
+-'  168  22  ~/Downloads/heroku-3.2.1/data/lib/heroku/command/run.rb
+-'  1  0  ~/Downloads/heroku-3.2.1/data/lib/heroku/command/run.rb
+-'  1  0  ~/Downloads/heroku-3.2.1/data/lib/heroku/cli.rb
+-'  1  0  ~/Downloads/heroku-3.2.1/data/bin/heroku
+-'  17  13  ~/Projects/libssh2/libssh2.podspec
+-'  12  38  ~/Projects/libssh2/libssh2.podspec
+-'  14  0  ~/Projects/libssh2/libssh2.podspec
+-'  13  20  ~/Projects/libssh2/libssh2.podspec
+-'  9  87  ~/Projects/libssh2/libssh2.podspec
+-'  8  1  ~/Projects/libssh2/libssh2.podspec
+-'  7  19  ~/Projects/libssh2/libssh2.podspec
+-'  5  1  ~/Projects/libssh2/libssh2.podspec
+-'  4  19  ~/Projects/libssh2/libssh2.podspec
+-'  2  0  ~/Projects/libssh2/libssh2.podspec
+-'  1  0  ~/Projects/libssh2/libssh2.podspec
+-'  9  35  ~/Projects/neverlate-ios/Podfile
+-'  1  0  ~/Projects/neverlate-ios/Podfile
+-'  1  0  ~/.rbenv/versions/2.0.0-p353/bin/heroku
+-'  1  0  ~/.rbenv/versions/2.0.0-p353/bin/ruby
+-'  21  6  ~/.rbenv/shims/heroku
+-'  1  0  ~/.rbenv/shims/heroku
+-'  7  27  ~/Projects/Shell/Podfile
+-'  6  27  ~/Projects/Shell/Podfile
+-'  29  0  ~/Projects/neverlate-service/models/Calendar.coffee
+-'  29  0  ~/Projects/neverlate-service/package.json
+-'  1  0  ~/Projects/neverlate-service/lib/gtfs.coffee
+-'  1  0  ~/Dropbox/Documents/curriculum/es/curriculum-es.tex
+-'  23  0  ~/Dropbox/Documents/curriculum/es/curriculum-es.tex
+-'  50  45  ~/Projects/Shell/Shell/terminal-html/terminal.html
+-'  48  42  ~/Projects/Shell/Shell/terminal-html/terminal.html
+-'  4  0  ~/Projects/Shell/Shell/terminal-html/terminal.html
+-'  43  49  ~/Projects/erika/blaze/grails-app/conf/BuildConfig.groovy
+-'  57  7  ~/Projects/erika/blaze/grails-app/conf/BuildConfig.groovy
+-'  47  7  ~/Projects/erika/blaze/grails-app/conf/BuildConfig.groovy
+-'  38  60  ~/Projects/erika/blaze/grails-app/conf/BuildConfig.groovy
+-'  533  6  ~/Projects/erika/blaze/grails-app/services/blaze/InformacionService.groovy
 
 # History of marks within files (newest to oldest):
 
-> ~/Projects/brand-monitor/.git/COMMIT_EDITMSG
+> ~/.vim/after/ftplugin/java.vim
+	"	1	20
+	^	1	21
+	.	1	20
+	+	1	0
+	+	2	17
+	+	1	20
+
+> ~/.vim/after/ftplugin/groovy.vim
+	"	1	20
+	^	1	21
+	.	1	20
+	+	1	0
+	+	2	17
+	+	1	20
+
+> ~/.vimrc
+	"	7	7
+	^	9	16
+	.	7	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	7	7
+	+	8	7
+	+	7	0
+
+> ~/Projects/erika/blaze/src/groovy/blaze/DummyLocaleChangeInterceptor.groovy
 	"	1	0
 
-> ~/.vim/NERD_tree_1
-	"	27	9
+> ~/Projects/erika/NERD_tree_1
+	"	77	14
 	.	1	0
 	+	1	0
 	+	1	0
@@ -64,25 +238,949 @@
 	+	1	0
 	+	1	0
 	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
-> ~/.jitsu/tmp/endsly-gtfs-0.0.4.tgz
-	"	27	15
-	.	5	0
-	+	5	0
-
-> ~/.jitsu/tmp/endsly-neverlate-service-0.0.5.tgz
-	"	27	0
-	.	5	0
-	+	5	0
-
-> ~/.node-gyp/0.10.17/common.gypi
-	"	11	15
-
-> ~/Downloads/nerdtree-master/syntax/nerdtree.vim
+> ~/Projects/erika/blaze/src/groovy/blaze/Filtrador.groovy
 	"	1	0
+
+> ~/Projects/erika/blaze/src/groovy/blaze/GermanTransliteration.groovy
+	"	1	0
+
+> ~/Projects/erika/blaze/src/groovy/blaze/ListToMapCategory.groovy
+	"	6	18
+
+> ~/Projects/erika/blaze/grails-app/controllers/blaze/BaseController.groovy
+	"	22	3
+	^	56	0
+	.	57	0
+	+	55	48
+	+	57	0
+	z	1	0
+
+> ~/Projects/erika/blaze/grails-app/views/corporate/index.gsp
+	"	98	0
+
+> ~/Projects/erika/blaze/grails-app/views/layouts/blaze_base.gsp
+	"	1	0
+
+> ~/Projects/erika/blaze/grails-app/controllers/blaze/BotController.groovy
+	"	1	0
+	i	7	1
+	z	1	0
+
+> ~/Projects/erika/blaze/grails-app/conf/UrlMappings.groovy
+	"	1	0
+
+> ~/Projects/erika/blaze/grails-app/controllers/blaze/SiteController.groovy
+	"	62	22
+	.	248	0
+	+	248	0
+	i	37	4
+	z	1	0
+
+> ~/Projects/erika/blaze/grails-app/controllers/blaze/SitemapController.groovy
+	"	1	0
+	i	14	4
+	z	1	0
+
+> ~/Projects/erika/blaze/grails-app/views/site/index.gsp
+	"	87	8
+
+> ~/Projects/erika/blaze/grails-app/conf/BuildConfig.groovy
+	"	22	7
+	^	43	50
+	.	43	49
+	+	16	12
+	+	47	8
+	+	59	0
+	+	58	7
+	+	57	8
+	+	42	40
+	+	43	49
+
+> /private/var/folders/zs/rsbz0zl14vj4shgd6pggwfr80000gn/T/vUH5eAL/0.fugitiveblame
+	"	1	0
+
+> ~/Projects/erika/blaze/grails-app/services/blaze/InformacionService.groovy
+	"	533	6
+
+> ~/Desktop/NERD_tree_1
+	"	11	17
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Desktop/test/grails-app/conf/BuildConfig.groovy
+	"	63	8
+
+> ~/test.html
+	"	1	0
+	^	2	0
+	.	1	2
+	+	1	0
+	+	1	0
+	+	1	2
+
+> ~/.vim/snippets/html.snippets
+	"	167	33
+	^	167	34
+	.	167	33
+	+	176	0
+	+	166	9
+	+	168	9
+	+	170	9
+	+	172	9
+	+	174	9
+	+	176	0
+	+	167	3
+	+	169	3
+	+	171	3
+	+	173	3
+	+	175	33
+	+	173	33
+	+	171	33
+	+	169	33
+	+	167	33
+
+> ~/NERD_tree_1
+	"	38	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Projects/NERD_tree_2
+	"	4	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/Desktop/snipmate.vim/NERD_tree_1
+	"	24	13
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/.vim/snippets/java.snippets
+	"	87	1
+
+> /private/etc/hosts
+	"	47	0
+	^	47	0
+	.	47	0
+	+	36	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	47	0
+
+> ~/Projects/NERD_tree_1
+	"	14	15
+	.	1	0
+	+	1	0
+
+> ~/.git/index
+	"	4	10
+
+> ~/Projects/Shell/Shell/connection-form.json
+	"	7	33
+	^	7	34
+	.	7	34
+	+	1	0
+	+	2	2
+	+	3	0
+	+	3	27
+	+	3	27
+	+	10	4
+	+	11	8
+	+	14	6
+	+	25	4
+	+	26	2
+	+	10	0
+	+	5	2
+	+	3	25
+	+	11	74
+	+	10	18
+	+	12	18
+	+	11	34
+	+	12	63
+	+	15	25
+	+	17	18
+	+	16	50
+	+	17	50
+	+	16	73
+	+	19	55
+	+	17	77
+	+	3	25
+	+	18	59
+	+	17	103
+	+	12	73
+	+	11	135
+	+	16	77
+	+	11	154
+	+	24	0
+	+	21	24
+	+	23	6
+	+	22	7
+	+	22	0
+	+	21	5
+	+	22	81
+	+	4	44
+	+	3	10
+	+	4	15
+	+	2	12
+	+	4	3
+	+	11	46
+	+	12	46
+	+	11	40
+	+	12	40
+	+	11	49
+	+	12	55
+	+	11	48
+	+	16	59
+	+	17	59
+	+	18	67
+	+	16	61
+	+	18	54
+	+	17	55
+	+	16	42
+	+	17	42
+	+	18	44
+	+	16	46
+	+	17	46
+	+	6	5
+	+	9	0
+	+	7	135
+	+	7	34
+
+> ~/Projects/Shell/Shell/terminal-html/term.js
+	"	374	25
+	^	5756	5
+	.	1	0
+	+	1	0
+
+> ~/Projects/Shell/NERD_tree_1
+	"	14	17
+	^	52	15
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Projects/Shell/Shell/terminal-html/terminal.html
+	"	62	3
+	^	62	4
+	.	62	3
+	+	67	16
+	+	67	8
+	+	68	0
+	+	67	66
+	+	68	0
+	+	67	81
+	+	66	58
+	+	66	67
+	+	66	3
+	+	74	11
+	+	74	10
+	+	76	0
+	+	76	75
+	+	68	0
+	+	76	0
+	+	75	8
+	+	75	4
+	+	75	48
+	+	75	67
+	+	75	24
+	+	75	24
+	+	75	27
+	+	75	7
+	+	75	69
+	+	75	41
+	+	75	4
+	+	75	39
+	+	75	28
+	+	75	28
+	+	75	20
+	+	75	20
+	+	75	0
+	+	75	0
+	+	75	44
+	+	33	19
+	+	54	0
+	+	46	64
+	+	33	21
+	+	34	0
+	+	76	0
+	+	76	0
+	+	34	0
+	+	41	36
+	+	42	41
+	+	43	45
+	+	44	59
+	+	45	0
+	+	41	19
+	+	42	20
+	+	43	19
+	+	44	19
+	+	54	0
+	+	35	14
+	+	39	7
+	+	35	55
+	+	46	7
+	+	36	2
+	+	50	10
+	+	51	44
+	+	52	49
+	+	52	49
+	+	53	0
+	+	79	0
+	+	79	0
+	+	66	57
+	+	66	64
+	+	66	52
+	+	66	52
+	+	67	0
+	+	56	27
+	+	60	1
+	+	54	1
+	+	59	21
+	+	33	16
+	+	57	22
+	+	59	40
+	+	51	7
+	+	52	7
+	+	59	42
+	+	74	7
+	+	75	0
+	+	66	48
+	+	78	20
+	+	58	27
+	+	4	0
+	+	49	0
+	+	48	54
+	+	41	9
+	+	42	8
+	+	41	9
+	+	42	8
+	+	49	43
+	+	50	40
+	+	42	19
+	+	49	42
+	+	50	44
+	+	63	32
+	+	64	3
+	+	63	5
+	+	62	3
+
+> ~/Projects/Shell/NERD_tree_2
+	"	13	10
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Projects/Shell/Podfile
+	"	5	21
+	^	5	22
+	.	5	21
+	+	11	0
+	+	11	0
+	+	1	27
+	+	5	22
+	+	3	0
+	+	4	8
+	+	1	33
+	+	2	25
+	+	7	0
+	+	11	0
+	+	7	70
+	+	8	27
+	+	5	23
+	+	7	27
+	+	8	39
+	+	10	0
+	+	5	21
+
+> ~/Desktop/libssh2/.gitignore
+	"	1	9
+	^	1	10
+	.	1	9
+	+	2	0
+	+	1	9
+
+> ~/Desktop/openssl/OpenSSL.podspec
+	"	9	56
+	^	13	48
+	.	13	47
+	+	21	2
+	+	9	49
+	+	3	25
+	+	9	96
+	+	13	35
+	+	12	30
+	+	15	34
+	+	17	2
+	+	18	59
+	+	12	19
+	+	13	47
+
+> ~/Desktop/libssh2/build-libssh2.sh
+	"	73	0
+
+> ~/Downloads/openssl-1.0.1e/OpenSSL.podspec
+	"	1	0
+	^	25	93
+	.	25	92
+	+	25	92
+
+> ~/Desktop/openssl/.gitignore
+	"	1	9
+	^	1	10
+	.	1	9
+	+	1	9
+
+> ~/Projects/NMSSH/NMSSH/NMSSHChannel.h
+	"	163	2
+	^	161	47
+	.	161	46
+	+	160	46
+	+	161	14
+	+	160	20
+	+	161	46
+
+> ~/Projects/NMSSH/NERD_tree_1
+	"	21	13
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Projects/NMSSH/NMSSH/NMSSHChannel.m
+	"	622	48
+	^	622	49
+	.	622	48
+	+	622	48
+
+> ~/Projects/NMSSH/NMSSH.podspec
+	"	12	56
+	^	12	57
+	.	12	49
+	+	20	96
+	+	20	41
+	+	20	41
+	+	20	41
+	+	29	0
+	+	28	0
+	+	13	0
+	+	14	0
+	+	13	48
+	+	20	2
+	+	13	48
+	+	14	0
+	+	13	55
+	+	13	56
+	+	14	0
+	+	13	110
+	+	27	0
+	+	23	2
+	+	25	67
+	+	13	19
+	+	21	0
+	+	20	36
+	+	25	50
+	+	20	2
+	+	22	0
+	+	21	34
+	+	18	25
+	+	6	28
+	+	4	20
+	+	5	20
+	+	6	0
+	+	7	48
+	+	12	49
+
+> ~/Projects/libssh2/libssh2.podspec
+	"	15	47
+	^	15	48
+	.	15	47
+	+	19	2
+	+	2	26
+	+	3	26
+	+	4	86
+	+	5	46
+	+	7	43
+	+	8	32
+	+	9	86
+	+	9	86
+	+	10	0
+	+	14	0
+	+	14	2
+	+	11	26
+	+	14	37
+	+	18	0
+	+	11	2
+	+	14	26
+	+	14	26
+	+	14	0
+	+	14	0
+	+	14	28
+	+	12	36
+	+	14	25
+	+	13	26
+	+	14	34
+	+	14	25
+	+	9	76
+	+	12	37
+	+	17	26
+	+	17	4
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	26
+	+	17	2
+	+	17	2
+	+	17	6
+	+	17	6
+	+	17	0
+	+	12	0
+	+	17	14
+	+	15	47
+
+> ~/Projects/NMSSH/.gitignore
+	"	11	11
+	^	11	12
+	.	12	0
+	+	12	4
+	+	12	0
+
+> ~/Downloads/heroku-3.2.1/data/lib/heroku/auth.rb
+	"	66	0
+
+> ~/Downloads/heroku-3.2.1/data/lib/heroku/client.rb
+	"	143	0
+	^	39	29
+	.	39	28
+	+	39	28
+
+> ~/Downloads/heroku-3.2.1/data/lib/heroku/command/run.rb
+	"	168	22
+	^	117	23
+	.	117	22
+	+	116	22
+	+	117	22
+
+> ~/Downloads/heroku-3.2.1/data/lib/heroku/client/rendezvous.rb
+	"	81	26
+	^	32	27
+	.	32	26
+	+	15	12
+	+	33	0
+	+	32	26
+
+> ~/Downloads/heroku-3.2.1/data/lib/heroku/cli.rb
+	"	1	0
+
+> ~/Downloads/heroku-3.2.1/data/bin/heroku
+	"	1	0
+
+> ~/Downloads/libssh2-1.4.3/README
+	"	66	0
+
+> ~/Projects/neverlate-ios/Podfile
+	"	9	35
+	^	7	40
+	.	7	39
+	+	8	31
+	+	11	0
+	+	9	0
+	+	10	29
+	+	6	27
+	+	7	39
+
+> ~/.rbenv/versions/2.0.0-p353/bin/heroku
+	"	1	0
+
+> ~/.rbenv/versions/2.0.0-p353/bin/ruby
+	"	1	0
+
+> ~/.rbenv/shims/heroku
+	"	21	6
+
+> ~/Projects/neverlate-service/lib/gtfs.coffee
+	"	1	0
+
+> ~/Projects/neverlate-service/NERD_tree_1
+	"	12	7
+	^	54	18
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Projects/neverlate-service/package.json
+	"	29	0
+
+> ~/Projects/neverlate-service/models/Calendar.coffee
+	"	29	0
+
+> ~/Projects/neverlate-ios/NERD_tree_1
+	"	11	7
+	.	1	0
+	+	1	0
+
+> ~/Projects/TenzingCore/Podfile
+	"	1	0
+
+> ~/Projects/TenzingCore/NERD_tree_1
+	"	12	7
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/Projects/TenzingCore/TenzingCore.podspec
+	"	18	95
+	^	18	96
+	.	18	95
+	+	3	24
+	+	18	95
+
+> ~/Dropbox/Documents/curriculum/es/curriculum-es.tex
+	"	1	0
+
+> ~/Downloads/term.js-master/example/index.html
+	"	1	0
+
+> ~/Projects/Shell/Shell/terminal-html/jquery.terminal.css
+	"	89	15
+	^	89	16
+	.	89	16
+	+	17	0
+	+	43	36
+	+	44	20
+	+	43	27
+	+	44	17
+	+	43	22
+	+	44	0
+	+	43	30
+	+	16	14
+	+	89	16
+
+> ~/Desktop/android.html
+	"	31	5
+	^	11	17
+	.	31	0
+	+	6	17
+	+	7	17
+	+	8	17
+	+	9	17
+	+	11	16
+	+	31	0
+
+> ~/Desktop/terminal-html/terminal.html
+	"	9	18
+	^	9	18
+	.	9	18
+	+	6	0
+	+	5	11
+	+	11	30
+	+	11	25
+	+	11	10
+	+	11	0
+	+	11	14
+	+	11	10
+	+	21	0
+	+	11	0
+	+	13	9
+	+	14	11
+	+	16	33
+	+	17	22
+	+	6	17
+	+	7	18
+	+	8	18
+	+	9	18
+
+> ~/Desktop/terminal-html/rpc-demo.html
+	"	16	5
+	^	16	6
+	.	16	6
+	+	12	0
+	+	8	16
+	+	9	17
+	+	10	17
+	+	11	44
+	+	17	0
+	+	16	8
+	+	14	27
+	+	16	8
+	+	14	6
+	+	16	6
+
+> ~/Downloads/jquery.terminal-0.7.12/examples/rpc-demo.html
+	"	1	0
+
+> ~/Projects/Shell/.gitignore
+	"	27	4
+	^	27	5
+	.	27	4
+	+	1	0
+	+	25	7
+	+	27	4
+
+> ~/Projects/SSH-Client/Podfile
+	"	1	52
+	^	1	53
+	.	1	22
+	+	1	0
+	+	1	22
+
+> ~/Projects/NMSSH.podspec
+	"	20	2
+	^	20	3
+	.	20	2
+	+	1	0
+	+	2	24
+	+	3	22
+	+	5	20
+	+	6	22
+	+	7	47
+	+	12	30
+	+	7	80
+	+	13	33
+	+	15	2
+	+	16	1
+	+	18	10
+	+	12	0
+	+	11	0
+	+	9	41
+	+	10	0
+	+	11	0
+	+	10	38
+	+	12	54
+	+	18	44
+	+	20	45
+	+	20	58
+	+	21	0
+	+	20	2
+
+> ~/Projects/LICENSA
+	"	1	0
+
+> ~/Projects/LICENSE
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/Projects/endika/app/assets/stylesheets/application.css.scss
+	"	65	2
+	^	98	0
+	.	98	0
+	+	98	0
+
+> ~/Projects/endika/NERD_tree_1
+	"	12	16
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Projects/endika/app/controllers/home_controller.rb
+	"	1	0
+
+> ~/Projects/endika/app/assets/javascripts/application.js
+	"	1	0
+
+> ~/Projects/endika/app/assets/javascripts/jquery.easing.js
+	"	1	0
+
+> ~/Projects/endika/app/assets/javascripts/home.js.coffee
+	"	1	0
+
+> ~/Projects/endika/app/assets/javascripts/skroll.js
+	"	1	0
+
+> ~/Projects/neverlate-service/.travis.yml
+	"	3	8
+	^	3	9
+	.	4	0
+	+	4	0
+	+	4	0
+
+> ~/Projects/neverlate-service/README.md
+	"	1	99
+	^	1	100
+	.	1	16
+	+	2	0
+	+	1	16
+
+> ~/Projects/neverlate-service/lib/import.coffee
+	"	65	21
+	^	149	22
+	.	149	21
+	+	158	47
+	+	145	0
+	+	147	21
+	+	149	39
+	+	158	35
+	+	161	18
+	+	147	0
+	+	149	21
+
+> ~/Projects/neverlate-service/test/test-import.coffee
+	"	32	0
+	^	9	10
+	.	12	34
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	5	11
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	5	12
+	+	13	0
+	+	12	36
+	+	13	0
+	+	12	34
+
+> ~/Projects/neverlate-service/test/test-calendar.coffee
+	"	13	31
+	^	13	32
+	.	13	0
+	+	26	0
+	+	18	18
+	+	19	6
+	+	6	0
+	+	12	0
+	+	14	0
+	+	13	0
+
+> ~/Projects/neverlate-service/node_modules/csv/lib/transformer.js
+	"	89	16
+	^	89	17
+	.	89	16
+	+	89	16
+
+> ~/Projects/NullObjects/README.md
+	"	44	23
+	^	44	24
+	.	45	0
+	+	4	38
+	+	5	140
+	+	7	9
+	+	13	14
+	+	21	2
+	+	15	35
+	+	17	0
+	+	21	0
+	+	17	24
+	+	19	21
+	+	20	26
+	+	20	10
+	+	11	22
+	+	21	0
+	+	21	0
+	+	23	14
+	+	25	0
+	+	29	26
+	+	31	18
+	+	9	132
+	+	37	133
+	+	38	0
+	+	39	0
+	+	43	2
+	+	46	0
+	+	43	25
+	+	44	24
+	+	45	0
+
+> ~/Projects/NullObjects/NullObjects.podspec
+	"	9	30
+	^	9	31
+	.	9	30
+	+	1	0
+	+	2	30
+	+	3	24
+	+	4	70
+	+	5	56
+	+	7	65
+	+	8	66
+	+	9	30
+
+> ~/Projects/NullObjects/.gitignore
+	"	24	4
+	^	24	5
+	.	24	4
+	+	23	6
+	+	24	4
+
+> ~/Projects/NullObjects/.git/MERGE_MSG
+	"	1	0
+
+> ~/Projects/Log4Cocoa/Log4Cocoa.podspec
+	"	3	23
+	^	3	25
+	.	3	24
+	+	6	22
+	+	3	24
+
+> ~/Projects/Log4Cocoa/uncrustify_objective_c.cfg
+	"	132	26
+	^	132	27
+	.	5	26
+	+	5	26
+
+> ~/Projects/Log4Cocoa/.gitignore
+	"	26	4
+	^	26	5
+	.	26	4
+	+	25	7
+	+	26	4
+
+> ~/.bash_profile
+	"	1	21
+	.	1	0
+	+	1	0
 
 > ~/.gitignore
 	"	1	0
 	^	1	1
-	.	2	0
+	.	1	0
 	+	2	0
+	+	1	0
