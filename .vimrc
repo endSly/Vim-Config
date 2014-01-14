@@ -1,5 +1,6 @@
 set t_Co=256
-colorscheme grb4
+set background=dark
+colorscheme solarized
 syntax on
 filetype plugin indent on
 
