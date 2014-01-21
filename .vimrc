@@ -12,5 +12,8 @@ set autoindent
 set smarttab
 set expandtab
 set number
+set hlsearch
 
 let g:EasyMotion_leader_key = 'W'
+
+autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
